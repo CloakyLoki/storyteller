@@ -80,7 +80,7 @@
                             </goals>
                         </execution>
                         <execution>
-                            <id>generate-jacoco-report</id>
+                            <id>jacoco-report-generation</id>
                             <goals>
                                 <goal>report</goal>
                             </goals>
