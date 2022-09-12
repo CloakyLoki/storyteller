@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="PluginManagement fix">
+    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="target remove">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +79,8 @@
       <workItem from="1662909737590" duration="3159000" />
       <workItem from="1662918698853" duration="177000" />
       <workItem from="1662966769271" duration="4000" />
+      <workItem from="1662970582678" duration="674000" />
+      <workItem from="1662980975386" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="tests add">
       <created>1662905892279</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662911897732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="target remove">
+      <created>1662970643225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970643225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +131,7 @@
     <MESSAGE value="tests add" />
     <MESSAGE value="wrapper add" />
     <MESSAGE value="PluginManagement fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="PluginManagement fix" />
+    <MESSAGE value="target remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="target remove" />
   </component>
 </project>
