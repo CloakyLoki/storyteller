@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="target remove">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="target remove" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +76,7 @@
       <workItem from="1662966769271" duration="4000" />
       <workItem from="1662970582678" duration="674000" />
       <workItem from="1662980975386" duration="287000" />
+      <workItem from="1663007139689" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="tests add">
       <created>1662905892279</created>
