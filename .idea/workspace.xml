@@ -4,52 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="target remove">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Story.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/PersonalProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/PrivateProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/ProfessionalProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/GiftTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/ScopeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/StoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/TagTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/PersonalProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/PrivateProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/ProfessionalProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/java/dmdev/util/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/src/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbInit.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db_structure.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project.description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="c654d47d-f86e-41e2-aafa-83adbb5c34f9" name="Changes" comment="Reviewed version 01/10/2022">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/presets/Importance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/presets/Religion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/structure.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dmdev/CommonRun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/dmdev/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/dmdev/integration/EmptyIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/presets/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/Scope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/PersonalProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/PrivateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/profiles/PrivateProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/java/dmdev/entity/profiles/ProfessionalProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/dmdev/entity/profiles/ProfessionalProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/GiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/GiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/ScopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/ScopeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/StoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/StoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/TagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/TagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/PersonalProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/profiles/PersonalProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/PrivateProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/profiles/PrivateProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/entity/profiles/ProfessionalProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/dmdev/entity/profiles/ProfessionalProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/java/dmdev/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/dmdev/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/dmdev/ServiceRun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/test/java/com/dmdev/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/test/java/com/dmdev/integration/EmptyIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dmdev/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dmdev/integration/EmptyIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dbInit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/dbInit.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db_structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project.description" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/project.description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -101,12 +92,12 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>04117ce0-091c-4468-99bb-00c4bc0ba89a</source-data-source-id>\n        <source-path>database/&quot;storyteller&quot;/schema/&quot;public&quot;</source-path>\n        <target-data-source-id>52bd9b37-3cd1-4eb4-9f67-b02e3cb79990</target-data-source-id>\n        <target-path>database/&quot;test-storyteller&quot;/schema/&quot;public&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Andruha/IdeaProjects/storyteller/general/src/main/resources",
+    "last_opened_file_path": "C:/Users/Andruha/IdeaProjects/storyteller/common/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -126,11 +117,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andruha\IdeaProjects\storyteller\common\src\test\resources" />
+      <recent name="C:\Users\Andruha\IdeaProjects\storyteller\common\src\main\resources" />
       <recent name="C:\Users\Andruha\IdeaProjects\storyteller\src\main\resources" />
       <recent name="C:\Users\Andruha\IdeaProjects\storyteller\src\test\resources" />
       <recent name="C:\Users\Andruha\IdeaProjects\storyteller\general\src\test\java\resources" />
-      <recent name="C:\Users\Andruha\IdeaProjects\storyteller\general\src\main\resources" />
-      <recent name="C:\Users\Andruha\IdeaProjects\storyteller\general\src\main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.dmdev.entity" />
@@ -149,7 +140,7 @@
   </component>
   <component name="RunManager" selected="JUnit.All in general">
     <configuration name="All in general" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="general" />
+      <module name="common" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -157,7 +148,7 @@
       </method>
     </configuration>
     <configuration name="ProfessionalProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="general" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dmdev.entity.profiles.*" />
@@ -172,7 +163,7 @@
       </method>
     </configuration>
     <configuration name="ProfessionalProfileTest.shouldInsertNewProfessionalProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="general" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dmdev.entity.profiles.*" />
@@ -188,7 +179,7 @@
       </method>
     </configuration>
     <configuration name="ProfessionalProfileTest.shouldReturnProfessionalProfileFromDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="general" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dmdev.entity.profiles.*" />
@@ -204,7 +195,7 @@
       </method>
     </configuration>
     <configuration name="dmdev.entity.profiles in general" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="general" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dmdev.entity.profiles.*" />
@@ -246,7 +237,12 @@
       <workItem from="1664019477023" duration="9220000" />
       <workItem from="1664029142276" duration="20103000" />
       <workItem from="1664097293508" duration="33184000" />
-      <workItem from="1664180983758" duration="12189000" />
+      <workItem from="1664180983758" duration="13533000" />
+      <workItem from="1664273433995" duration="736000" />
+      <workItem from="1664452280037" duration="610000" />
+      <workItem from="1665227734890" duration="3239000" />
+      <workItem from="1666026072352" duration="73000" />
+      <workItem from="1666196764634" duration="12061000" />
     </task>
     <task id="LOCAL-00001" summary="tests add">
       <created>1662905892279</created>
@@ -283,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663007633453</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final revision&#10;Project description in src/main/resources">
+      <created>1664197896516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664197896516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +308,8 @@
     <MESSAGE value="wrapper add" />
     <MESSAGE value="PluginManagement fix" />
     <MESSAGE value="target remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="target remove" />
+    <MESSAGE value="Final revision&#10;Project description in src/main/resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final revision&#10;Project description in src/main/resources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
